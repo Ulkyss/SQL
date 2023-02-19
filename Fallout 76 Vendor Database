@@ -1,0 +1,22 @@
+CREATE TABLE Vendor(Productname TEXT, Weapon TEXT, Quality TEXT, WeightinLBS INTEGER, Price INTEGER);
+INSERT INTO Vendor VALUES("Machinegun","Ballistic","Pristine",25,4000);
+INSERT INTO Vendor VALUES("PowerFist","Melee","Moderate",5,1500);
+INSERT INTO Vendor VALUES("HandmadeRifle","Ballistic","Pristine",12,3000);
+INSERT INTO Vendor VALUES("TeslaRifle","Energy","Moderate",10,2000);
+INSERT INTO Vendor VALUES("HuntingRifle","Ballistic","Pristine",9,850);
+INSERT INTO Vendor VALUES("PumpActionShotgun","Ballistic","Poor",10,1100);
+INSERT INTO Vendor VALUES("Minigun","Ballistic","Poor",35,10000);
+INSERT INTO Vendor VALUES("PlasmaCaster","Energy","Pristine",30,10000);
+INSERT INTO Vendor VALUES("Revolver","Ballistic","Moderate",3,700);
+INSERT INTO Vendor VALUES("SuperSledge","Melee","Poor",20,5000);
+INSERT INTO Vendor VALUES("Gauntlet","Melee","Pristine",5,2000);
+INSERT INTO Vendor VALUES("SamuraiSword","Melee","Pristine",6,900);
+INSERT INTO Vendor VALUES("WalkingCane","Melee","Moderate",5,600);
+INSERT INTO Vendor VALUES("SheepSquatchCub","Melee","Pristine",9,750);
+INSERT INTO Vendor VALUES("BarbedBaseballBat","Melee","Moderate",8,1000);
+
+--Ordered the prices of each weapon from smallest to largest--
+SELECT * FROM Vendor ORDER BY Price;
+
+--Sorted and totaled the prices of each weapon type--
+SELECT Weapon,SUM(Price) FROM Vendor Group By Weapon
