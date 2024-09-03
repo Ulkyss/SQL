@@ -15,6 +15,23 @@ INSERT INTO Vendor VALUES("WalkingCane","Melee","Moderate",5,600);
 INSERT INTO Vendor VALUES("SheepSquatchCub","Melee","Pristine",9,750);
 INSERT INTO Vendor VALUES("BarbedBaseballBat","Melee","Moderate",8,1000);
 INSERT INTO Vendor VALUES("Cremator","Energy","Pristine",1,5000);
+INSERT INTO Vendor VALUES("EnclavePlasmaGun","Energy","Pristine",8,300);
+INSERT INTO Vendor VALUES("PipeGun","Ballistic","Moderate",2,150);
+INSERT INTO Vendor VALUES("UltraciteLaserGun","Energy","Pristine",2,200);
+INSERT INTO Vendor VALUES(".44Pistol","Ballistic","Pristine",.5,20);
+INSERT INTO Vendor VALUES("10mmPistol","Ballistic","Pristine",1,100);
+INSERT INTO Vendor VALUES("AlienBlaster","Energy","Pristine",3,600);
+INSERT INTO Vendor VALUES("BlackPowderGun","Ballistic","Poor",4,400);
+INSERT INTO Vendor VALUES("CrusaderPistol","Ballistic","Poor",2,500);
+INSERT INTO Vendor VALUES("FlareGun","Energy","Poor",1,50);
+INSERT INTO Vendor VALUES("GammaGun","Energy","Pristine",1,200);
+INSERT INTO Vendor VALUES("GaussPistol","Energy","Moderate",4,600);
+INSERT INTO Vendor VALUES("SalvagedAssaultronHead","Energy","Pristine",15,300);
+INSERT INTO Vendor VALUES("SingleActionRevolver","Ballistic","Moderate",10,100);
+INSERT INTO Vendor VALUES("WesternRevolver","Ballistic","Poor",2,200);
+INSERT INTO Vendor VALUES("10mmSMG","Ballistic","Moderate",5,100);
+INSERT INTO Vendor VALUES("AlienDisintegrator","Energy","Pristine",10,4000);
+INSERT INTO Vendor VALUES("AssaultRifle","Ballistic","Poor",15,300);
 
 --Ordered the prices of each weapon from smallest to largest--
 SELECT * FROM Vendor ORDER BY Price;
