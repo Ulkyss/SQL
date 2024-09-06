@@ -50,6 +50,15 @@ INSERT INTO Vendor VALUES("PumpActionShotgun","Ballistic","Pristine",6,200);
 INSERT INTO Vendor VALUES("Bow","Ballistic","Pristine",1,50);
 INSERT INTO Vendor VALUES("CompoundBow","Ballistic","Pristine",2,300);
 INSERT INTO Vendor VALUES("Crossbow","Ballistic","Pristine",4,350);
+INSERT INTO Vendor VALUES("Cryolator","Energy","Pristine",5,800);
+INSERT INTO Vendor VALUES("Flamer","Energy","Moderate",8,800);
+INSERT INTO Vendor VALUES("GatlingGun","Ballistic","Pristine",15,500);
+INSERT INTO Vendor VALUES("GatlingLaser","Energy","Poor",15,900);
+INSERT INTO Vendor VALUES("GatlingPlasma","Energy","Pristine",15,900);
+INSERT INTO Vendor VALUES("GaussMinigun","Energy","Moderate",1,1500);
+INSERT INTO Vendor VALUES("HarpoonGun","Ballistic","Poor",13,500);
+INSERT INTO Vendor VALUES("PepperShaker","Energy","Pristine",13,2000);
+INSERT INTO Vendor VALUES("UltraciteGatlingLaser","Energy","Poor"15,1000);
 
 --Ordered the prices of each weapon from smallest to largest--
 SELECT * FROM Vendor ORDER BY Price;
