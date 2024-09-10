@@ -1,4 +1,4 @@
-CREATE TABLE Vendor(Productname TEXT, Weapon TEXT, Quality TEXT, WeightinLBS INTEGER, Price INTEGER);
+CREATE TABLE Vendor(Productname TEXT, AmmoType TEXT, Quality TEXT, WeightinLBS INTEGER, Price INTEGER);
 INSERT INTO Vendor VALUES("Machinegun","Ballistic","Pristine",25,4000);
 INSERT INTO Vendor VALUES("PowerFist","Melee","Moderate",5,1500);
 INSERT INTO Vendor VALUES("HandmadeRifle","Ballistic","Pristine",12,3000);
@@ -64,4 +64,7 @@ INSERT INTO Vendor VALUES("UltraciteGatlingLaser","Energy","Poor"15,1000);
 SELECT * FROM Vendor ORDER BY Price;
 
 --Sorted and totaled the prices of each weapon type--
-SELECT Weapon,SUM(Price) FROM Vendor Group By Weapon
+SELECT AmmoType, COUNT(*) FROM Vendor GROUP BY AmmoType;
+
+--Assigned weapons based on their Weight--
+SELECT Productname, CASE WHEN WeightinLBS > 10 THEN "Heavy" ELSE "Light" END "Weight" FROM Vendor;
