@@ -1,1 +1,4 @@
-CREATE TABLE
+CREATE TABLE TruckDeliveries(TruckType TEXT, Destination TEXT, Origin TEXT, Delivery TEXT, Customer TEXT);
+INSERT INTO TruckDeliveries VALUES("TractorTrailer","ColumbusSpringsHospital","ColumbusOH","Decemeber","Socomec");
+INSERT INTO TruckDeliveries VALUES("TractorTrailer","SouthCharlestonWV","ColumbusOH","August","Socomec");
+INSERT INTO TruckDeliveries VALUES("TractorTrailer","DeerParkNY","ColumbusOH","July","Socomec");
