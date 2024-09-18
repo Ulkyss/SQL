@@ -2,3 +2,7 @@ CREATE TABLE TruckDeliveries(TruckType TEXT, Destination TEXT, Origin TEXT, Deli
 INSERT INTO TruckDeliveries VALUES("TractorTrailer","ColumbusSpringsHospital","ColumbusOH","Decemeber","Socomec");
 INSERT INTO TruckDeliveries VALUES("TractorTrailer","SouthCharlestonWV","ColumbusOH","August","Socomec");
 INSERT INTO TruckDeliveries VALUES("TractorTrailer","DeerParkNY","ColumbusOH","July","Socomec");
+INSERT INTO TruckDeliveries VALUES("TractorTrailer","CincinnatiOH","ColumbusOH","August","Socomec");
+INSERT INTO TruckDeliveries VALUES("TractorTrailer","BirminghamAL","ColumbusOH","November","Socomec");
+INSERT INTO TruckDeliveries VALUES("TractorTrailer","HoustonTX","ColumbusOH","September","Socomec");
+INSERT INTO TruckDeliveries VALUES("TractorTrailer","HoustonTX","ColumbusOH","September","Socomec");
