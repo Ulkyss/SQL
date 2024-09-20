@@ -6,3 +6,12 @@ INSERT INTO TruckDeliveries VALUES("TractorTrailer","CincinnatiOH","ColumbusOH",
 INSERT INTO TruckDeliveries VALUES("TractorTrailer","BirminghamAL","ColumbusOH","November","Socomec");
 INSERT INTO TruckDeliveries VALUES("TractorTrailer","HoustonTX","ColumbusOH","September","Socomec");
 INSERT INTO TruckDeliveries VALUES("TractorTrailer","HoustonTX","ColumbusOH","September","Socomec");
+INSERT INTO TruckDeliveries VALUES("TractorTrailer","HoustonTX","ColumbusOH","September","Socomec");
+INSERT INTO TruckDeliveries VALUES("TractorTrailer","AieaHI","ColumbusOH","September","Socomec");
+INSERT INTO TruckDeliveries VALUES("TractorTrailer","PortsmouthNH","ColumbusOH","August","Socomec");
+INSERT INTO TruckDeliveries VALUES("TractorTrailer","WashingtonDC","ColumbusOH","August","Socomec");
+INSERT INTO TruckDeliveries VALUES("TractorTrailer","GrandForksND","ColumbusOH","August","Socomec");
+INSERT INTO TruckDeliveries VALUES("TractorTrailer","DublinOH","ColumbusOH","W/ADV","Socomec");
+INSERT INTO TruckDeliveries VALUES("TractorTrailer","SanAntonioTX","ColumbusOH","August","Socomec);
+INSERT INTO TruckDeliveries VALUES("TractorTrailer","GrandForksND","ColumbusOH","August","Socomec");
+INSERT INTO TruckDeliveries VALUES("TractorTrailer","GrandForksND","ColumbusOH","August","Socomec");
