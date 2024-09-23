@@ -24,3 +24,7 @@ INSERT INTO TruckDeliveries VALUES("StraightTruck","CincinnatiOH","ColumbusOH","
 INSERT INTO TruckDeliveries VALUES("StraightTruck","OmahaNB","ColumbusOH","August","Socomec");
 INSERT INTO TruckDeliveries VALUES("TractorTrailer","PhiladelphiaPA","ColumbusOH","August","Socomec");
 INSERT INTO TruckDeliveries VALUES("TractorTrailer","SuperiorNB","ColumbusOH","August","Socomec");
+INSERT INTO TruckDeliveries VALUES("TractorTrailer","GrandForksND","ColumbusOH","August","Socomec");
+INSERT INTO TruckDeliveries VALUES("TractorTrailer","GrandForksND","ColumbusOH","August","Socomec");
+INSERT INTO TruckDeliveries VALUES("TractorTrailer","GrandForksND","ColumbusOH","August","Socomec");
+INSERT INTO TruckDeliveries VALUES("TractorTrailer","SanAntonioTX","ColumbusOH","August","Socomec");
