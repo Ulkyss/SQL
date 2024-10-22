@@ -12,7 +12,7 @@ INSERT INTO TruckDeliveries VALUES("TractorTrailer","PortsmouthNH","ColumbusOH",
 INSERT INTO TruckDeliveries VALUES("TractorTrailer","WashingtonDC","ColumbusOH","August","Socomec");
 INSERT INTO TruckDeliveries VALUES("TractorTrailer","GrandForksND","ColumbusOH","August","Socomec");
 INSERT INTO TruckDeliveries VALUES("TractorTrailer","DublinOH","ColumbusOH","W/ADV","Socomec");
-INSERT INTO TruckDeliveries VALUES("TractorTrailer","SanAntonioTX","ColumbusOH","August","Socomec);
+INSERT INTO TruckDeliveries VALUES("TractorTrailer","SanAntonioTX","ColumbusOH","August","Socomec");
 INSERT INTO TruckDeliveries VALUES("TractorTrailer","GrandForksND","ColumbusOH","August","Socomec");
 INSERT INTO TruckDeliveries VALUES("TractorTrailer","GrandForksND","ColumbusOH","August","Socomec");
 INSERT INTO TruckDeliveries VALUES("TractorTrailer","BryanTX","ColumbusOH","W/ADV","Socomec");
