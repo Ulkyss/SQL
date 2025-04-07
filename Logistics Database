@@ -28,3 +28,10 @@ INSERT INTO TruckDeliveries VALUES("TractorTrailer","GrandForksND","ColumbusOH",
 INSERT INTO TruckDeliveries VALUES("TractorTrailer","GrandForksND","ColumbusOH","August","Socomec");
 INSERT INTO TruckDeliveries VALUES("TractorTrailer","GrandForksND","ColumbusOH","August","Socomec");
 INSERT INTO TruckDeliveries VALUES("TractorTrailer","SanAntonioTX","ColumbusOH","August","Socomec");
+
+
+
+*Evaluating how many trucks are going to Grand Forks, ND*
+
+SELECT COUNT(TruckType) FROM TruckDeliveries
+WHERE Destination LIKE'G%';
