@@ -35,3 +35,71 @@ INSERT INTO TruckDeliveries VALUES("TractorTrailer","SanAntonioTX","ColumbusOH",
 
 SELECT COUNT(TruckType) FROM TruckDeliveries
 WHERE Destination LIKE'G%';
+
+*Figuring out and comparing the amounts of truck deliveries we have in each destination.*
+SELECT 
+SUM(Case Destination
+    WHEN 'ColumbusSpringHospital' THEN '1'
+    ELSE 0
+    END) AS ColumbusSpringHospital
+SUM(CASE Destination
+    WHEN 'SouthCharlestonWV' THEN '1'
+    ELSE 0
+    END) AS SouthCharlestonWV
+SUM(CASE Destination
+    WHEN 'DeerParkNY' THEN '1'
+    ELSE 0
+    END) AS DeerparkNY
+SUM(CASE Destination
+    WHEN 'CincinnatiOH' THEN '1'
+    ELSE 0
+    END) AS CincinnatiOH
+SUM(CASE Destination
+    WHEN 'BirminghamAL' THEN '1'
+    ELSE 0
+    END) AS BirminghamAL
+SUM(CASE Destination
+    WHEN 'HoustonTX' THEN '1'
+    ELSE 0
+    END) AS HoustonTX
+SUM(CASE Destination
+    WHEN 'AieaHI' THEN '1'
+    ELSE 0
+    END) AS AieaHI
+SUM(CASE Destination
+    WHEN 'PortsmouthNH' THEN '1'
+    ELSE 0
+    END) AS PortsmouthNH
+SUM(CASE Destination
+    WHEN 'WashingtonDC' THEN '1'
+    ELSE 0
+    END) AS WashingtonDC
+SUM(CASE Destination
+    WHEN 'GrandForksND' THEN '1'
+    ELSE 0
+    END) AS GrandForksND
+SUM(CASE Destination
+    WHEN 'DublinOH' THEN '1'
+    ELSE 0
+    END) AS DublinOH
+SUM(CASE Destination
+    WHEN 'SanAntonioTX' THEN '1'
+    ELSE 0
+    END) AS SanAntonioTX
+SUM(Case Destination
+    WHEN 'WestPalmBeachFL' THEN '1'
+    ELSE 0
+    END) AS WestPalmBeachFL
+SUM(CASE Destination
+    WHEN 'OmahaNB' THEN '1'
+    ELSE 0
+    END) AS OmahaNB
+SUM(CASE Destination
+    WHEN 'PhiladelphiaPA' THEN '1'
+    ELSE 0
+    END) AS PhiladelphiaPA
+SUM(CASE Destination
+    WHEN 'SuperiorNB' THEN '1'
+    ELSE 0
+    END) AS SuperiorNB
+   FROM TruckDeliveries;
