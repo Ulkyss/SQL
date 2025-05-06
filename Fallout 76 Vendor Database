@@ -74,5 +74,21 @@ SELECT Productname,
 CASE WHEN WeightinLBS > 10 THEN "Heavy" ELSE "Light" AS Weight
 END
 FROM Vendor;
-
+--Made another table to incorporate JOINS and ALTER Syntaxes--
+CREATE TABLE Vendor2(Armor_name TEXT, Armor_type TEXT, Quality TEXT, Weight INTEGER, Price INTEGER);
+INSERT INTO Vendor2("Raider","Light","Pristine",10,500);
+INSERT INTO Vendor2("Leather","Light","Pristine",10,250);
+INSERT INTO Vendor2("Metal","Medium","Moderate",20,300);
+INSERT INTO Vendor2("Metal-Plated","Medium","Pristine",25,500);
+INSERT INTO Vendor2("X-01","Heavy","Pristine",45,1000);
+INSERT INTO Vendor2("T-45","Heavy","Pristine",45,1000);
+INSERT INTO Vendor2("T-65","Heavy","Moderate",45,1000);
+INSERT INTO Vendor2("Union","Heavy","Pristine",45,1000);
+INSERT INTO Vendor2("Hellcat","Heavy","Moderate",45,1000);
+INSERT INTO Vendor2("StranglerHeart","Heavy","Pristine",45,1000);
+INSERT INTO Vendor2("Vulcan","Heavy","Pristine",45,1000);
+INSERT INTO Vendor2("T-51","Heavy","Moderate",45,1000);
+INSERT INTO Vendor2("T-60","Heavy","Pristine",45,1000);
+INSERT INTO Vendor2("Ultracite","Heavy","Pristine",45,1000);
+INSERT INTO Vendor2("Excavator","Heavy","Pristine",45,1000);
 
