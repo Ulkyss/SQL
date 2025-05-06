@@ -61,10 +61,18 @@ INSERT INTO Vendor VALUES("PepperShaker","Energy","Pristine",13,2000);
 INSERT INTO Vendor VALUES("UltraciteGatlingLaser","Energy","Poor"15,1000);
 
 --Ordered the prices of each weapon from smallest to largest--
-SELECT * FROM Vendor ORDER BY Price;
+SELECT * FROM Vendor 
+ORDER BY Price;
 
 --Sorted and totaled the prices of each weapon type--
-SELECT AmmoType, COUNT(*) FROM Vendor GROUP BY AmmoType;
+SELECT AmmoType, 
+COUNT(*) FROM Vendor 
+GROUP BY AmmoType;
 
 --Assigned weapons based on their Weight--
-SELECT Productname, CASE WHEN WeightinLBS > 10 THEN "Heavy" ELSE "Light" END "Weight" FROM Vendor;
+SELECT Productname, 
+CASE WHEN WeightinLBS > 10 THEN "Heavy" ELSE "Light" AS Weight
+END
+FROM Vendor;
+
+
