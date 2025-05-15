@@ -64,7 +64,7 @@ INSERT INTO Vendor VALUES("UltraciteGatlingLaser","Energy","Poor"15,1000);
 SELECT * FROM Vendor 
 ORDER BY Price;
 
---Sorted and totaled the prices of each weapon type--
+--Sorted and totaled the prices of each weapon ammunition type--
 SELECT AmmoType, 
 COUNT(*) FROM Vendor 
 GROUP BY AmmoType;
@@ -91,4 +91,9 @@ INSERT INTO Vendor2("T-51","Heavy","Moderate",45,1000);
 INSERT INTO Vendor2("T-60","Heavy","Pristine",45,1000);
 INSERT INTO Vendor2("Ultracite","Heavy","Pristine",45,1000);
 INSERT INTO Vendor2("Excavator","Heavy","Pristine",45,1000);
+
+--Based on this projects goals,I've decided that this database's
+mission will be slightly changed. this database will now be used to highlight
+market prices based on the inventory this currently has, how many are being sold,
+and to evaluate the trends based on the purchases of these products on a monthly basis.--
 
