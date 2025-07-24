@@ -31,5 +31,18 @@ VALUES
 	ORDER BY price ASC;
 
 ~ Several Queries that give a statistic about the prices of these items.~
+	SELECT SUM(price) FROM superstore;
+
+	SELECT AVG(price) FROM superstore;
+
+	SELECT COUNT(price) FROM superstore
+	WHERE price> 100;
+
+	SELECT MIN(price) FROM superstore;
+
+	SELECT MAX(price) FROM superstore;
+
+~Writing a Query that gives a statistic about the prices of Kitchen Supplies~
+	SELECT Kitchen Supplies FROM superstore;
 	
 	
