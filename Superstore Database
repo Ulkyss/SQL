@@ -47,4 +47,6 @@ VALUES
 	WHERE price < 50 OR price > 300;
 	
 ~Weve gotten several client reports that their bluetooth speakers have broken. we need to know how many we have in our inventory and how much they all cost.~
-SELECT COUNT('Kitchen Supplies') FROM superstore;
+	SELECT stock_quantity FROM superstore
+	WHERE item_name = Wireless Bluetooth Speaker;
+	
