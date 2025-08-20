@@ -61,3 +61,9 @@ SELECT company_name FROM fortune_companies
 WHERE maternity_leave_weeks > 7 
 AND paid_time_off_days >= 16
 ORDER BY paid_time_off_days ASC;
+
+-- I need a list of every company that currently has healthcare benefits.--
+SELECT company_name
+CASE WHEN healthcare_benefits = 1 THEN "yes"
+ELSE "no" END 'Healthcare Benefits'
+FROM fortune_companies;
