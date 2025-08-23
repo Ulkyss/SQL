@@ -67,3 +67,5 @@ SELECT company_name,
 CASE WHEN healthcare_benefits = 1 THEN "yes"
 ELSE "no" END 'Healthcare Benefits'
 FROM fortune_companies;
+-- What industry has the highest employee tenure?--
+SELECT industry FROM fortune_companies
