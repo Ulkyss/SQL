@@ -72,5 +72,4 @@ FROM fortune_companies;
 SELECT industry, ROUND(AVG(revenue),1) as avg_revenue_billions
 FROM fortune_companies
 GROUP BY industry
-HAVING avg_revenue_billions>=200
-;
+HAVING avg_revenue_billions>=200;
