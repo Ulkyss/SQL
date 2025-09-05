@@ -1,0 +1,45 @@
+CREATE TABLE vips (
+     member_id INTEGER PRIMARY KEY
+   , last_name TEXT
+   , first_name TEXT
+   , event INTEGER
+   , provides_feedback_to INTEGER
+   , association TEXT
+   , assoc_type TEXT
+   , member_since INTEGER
+   );
+   
+CREATE TABLE reservations ( 
+    member_id INTEGER
+  , hotel INTEGER
+  , welcome_rsvp BIT
+  , dinner_rsvp BIT
+  );
+ 
+ 
+CREATE TABLE events (
+    event_id INTEGER PRIMARY KEY
+  , event_name TEXT
+  , event_type TEXT
+  );
+  
+
+CREATE TABLE hotels (
+    hotel_id INTEGER PRIMARY KEY
+  , hotel_name TEXT
+  , address TEXT
+  );
+
+
+INSERT INTO vips VALUES
+(2814, 'Fletcher', 'David', 5, 3742, 'Anishinabek Educational Institute', 'education', 2004)
+,(1944, 'Kim', 'Jiho', 4, 4230, 'Appalachian State', 'education', 1991)
+,(3889, 'Kowalski', 'Alex', 9, 3460, 'Brigg & McKinnnon AEC', 'private', 2015)
+,(3775, 'Al-Hassan', 'Amina', 6, 3891, 'California Department of Water Resources', 'government', 2013)
+,(4003, 'Chang', 'Nathan', 8, 3960, 'Chang Engineers, LLC', 'private', 2017)
+,(3490, 'Anderson', 'Shanae', 2, 4315, 'Chicago Department of Public Health', 'government', 2008)
+,(3077, 'Murphy', 'Aisling', 3, 2731, 'Climate Impacts on Farming Institute', 'research', 2006)
+,(3960, 'Ivanov', 'Dmitri', 6, 2814, 'Cooperative Institute for Climate, Ocean, and Ecosystem Studies', 'research', 2016)
+,(4402, 'Bennett', 'Leah', NULL, NULL, 'Denver Climate Research Foundation', 'research', 2024)
+,(3891, 'Roy', 'Harper', 4, 3077, 'Environmental Science Associates', 'private', 2015)
+,(4386, 'Silva', 'Thiago', NULL, NULL, 'Everglades Research Institute', 'research', 2023)
