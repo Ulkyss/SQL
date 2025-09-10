@@ -128,3 +128,8 @@ FROM vips
 LEFT JOIN events
 ON vips.event = events.event_id
 ;
+
+SELECT event_name, event_type
+FROM events
+INNER JOIN vips
+ON vips.first_name
