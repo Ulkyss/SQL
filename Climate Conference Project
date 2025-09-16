@@ -128,8 +128,8 @@ FROM vips
 LEFT JOIN events
 ON vips.event = events.event_id
 ;
-
-SELECT event_name, event_type
-FROM events
-INNER JOIN vips
-ON vips.first_name
+--list all the VIPs and their Hotel based on their member ID.--
+SELECT first_name,hotel
+FROM vips
+INNER JOIN reservations
+ON vips.member_id = reservations.member_id;
