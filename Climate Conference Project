@@ -133,3 +133,10 @@ SELECT first_name,hotel
 FROM vips
 INNER JOIN reservations
 ON vips.member_id = reservations.member_id;
+
+--Multiple Joins in one query.--
+SELECT
+FROM
+INNER JOIN
+LEFT JOIN
+LEFT JOIN
