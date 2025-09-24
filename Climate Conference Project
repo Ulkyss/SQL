@@ -135,8 +135,7 @@ INNER JOIN reservations
 ON vips.member_id = reservations.member_id;
 
 --Multiple Joins in one query.--
-SELECT
-FROM
+SELECT event.event_name, vips.first_name, vips.last_name, hotel.hotel_name
+FROM events
+INNER JOIN vips ON 
 INNER JOIN
-LEFT JOIN
-LEFT JOIN
