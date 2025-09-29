@@ -141,8 +141,15 @@ INNER JOIN events e ON v.event = e.event_id
 LEFT JOIN reservations r ON v.member_id = r.member_id
 LEFT JOIN hotels h ON r.hotel = h.hotel_id;
 
---Making my own query.--
-SELECT reservations
+--Identification Queries--
+SELECT member_id
 CASE WHEN welcome_rsvp = "1" THEN "yes"
 ELSE "no" END RSVP
-FROM
+FROM reservations;
+
+SELECT first_name FROM vips
+WHERE member_since <= 2007
+AND association LIKE '%climate%';
+
+
+
