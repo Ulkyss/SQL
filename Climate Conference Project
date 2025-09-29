@@ -141,6 +141,13 @@ INNER JOIN events e ON v.event = e.event_id
 LEFT JOIN reservations r ON v.member_id = r.member_id
 LEFT JOIN hotels h ON r.hotel = h.hotel_id;
 
+--A query with a Subquery.--
+SELECT first_name FROM vips
+WHERE member_since > (SELECT MIN(member_since) FROM vips);
+
+
+
+
 --Identification Queries--
 SELECT member_id
 CASE WHEN welcome_rsvp = "1" THEN "yes"
