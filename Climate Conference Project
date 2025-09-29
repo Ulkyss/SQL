@@ -142,7 +142,7 @@ LEFT JOIN reservations r ON v.member_id = r.member_id
 LEFT JOIN hotels h ON r.hotel = h.hotel_id;
 
 --Making my own query.--
-SELECT
-CASE WHEN
+SELECT reservations
+CASE WHEN welcome_rsvp = "1" THEN "yes":
 ELSE    END
 FROM;
