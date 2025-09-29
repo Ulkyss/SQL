@@ -142,4 +142,7 @@ LEFT JOIN reservations r ON v.member_id = r.member_id
 LEFT JOIN hotels h ON r.hotel = h.hotel_id;
 
 --Making my own query.--
-SELECT * FROM 
+SELECT
+CASE WHEN
+ELSE    END
+FROM;
