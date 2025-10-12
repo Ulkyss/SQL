@@ -160,3 +160,5 @@ AND association LIKE '%climate%';
 
 
 
+SELECT * FROM vips
+WHERE event LIKE '%Agriculture%';
