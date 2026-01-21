@@ -46,7 +46,7 @@ VALUES
 	SELECT item_name,'Kitchen Supplies', price FROM superstore
 	WHERE price < 50 OR price > 300;
 	
-~Weve gotten several client reports that their bluetooth speakers have broken. we need to know how many we have in our inventory and how much they all cost.~
-	SELECT stock_quantity FROM superstore
+~Weve gotten several client reports that their bluetooth speakers that have been purchased were broken. we need to know how many we have in our inventory and how much they all cost.~
+	SELECT stock_quantity,price FROM superstore
 	WHERE item_name = Wireless Bluetooth Speaker;
 	
